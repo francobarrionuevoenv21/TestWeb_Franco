@@ -1,0 +1,517 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, sans-serif;
+
+}
+
+section{
+
+    padding:80px 0;
+
+}
+
+/* HEADER */
+
+.header .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:#f7bf70;
+
+}
+
+/* header elements CSS */
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav {
+    display: flex;
+    gap: 30px;
+}
+
+.header nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.header nav a:hover {
+    color: white;
+}
+
+.header h3 {
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+
+/* header elements CSS */
+
+/* HEADER */
+
+/* HERO */
+
+.hero{
+
+    background:#f7bf70;
+
+}
+
+.hero .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+/* hero elements CSS */
+
+.hero-image img {
+    width: 800px;
+}
+
+
+.hero-text {
+    width: 45%;
+    align-items: flex-start;
+}
+
+.hero-text h1 {
+    font-size: 7rem;
+    font-weight: 900;
+    color: white;
+    padding-left: 80px;
+}
+
+.hero-text p {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    padding-left: 80px;
+}
+
+
+.buy-btn {
+    background-color: #BDEEEF;
+    color: black;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 15px 45px;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+/* hero section elements CSS */
+
+.about{
+
+    text-align:center;
+
+}
+
+/* ABOUT */
+
+/* about section elements CSS */
+
+.about {
+    padding: 80px 0;
+}
+
+.about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.about p {
+    max-width: 800px;
+
+    font-size: 1.2rem;
+    line-height: 1.6;
+
+    color: #444;
+
+    text-align: center;
+}
+
+/* about section elements CSS */
+
+/* ABOUT */
+
+/* PRODUCTS */
+
+.products {
+    background: #BDEEEF;
+    padding: 80px 0;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 2.5rem;
+}
+
+/* products section elements CSS */
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.card {
+    width: 250px;
+    height: 380px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    height: 220px;
+    width: auto;
+}
+
+.card h3 {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.card button {
+    background-color:#f7bf70;
+    color: black;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 15px 45px;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+/* products section elements CSS */
+/* PRODUCTS */
+
+/* RULES */
+
+.rules {
+    padding: 80px 0;
+
+    background-color: white;
+    background-image: url("../images/bg-grid.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 80%;
+}
+
+.rules .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* rules section elements CSS */
+
+.rules-text {
+    width: 45%;
+}
+
+.rules-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.rules-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.rules-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.rules-image img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+/* rules section elements CSS */
+/* RULES */
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #222;
+    padding: 50px 0;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* footer section elements CSS */
+
+.footer h3 {
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer nav {
+    display: flex;
+    gap: 30px;
+}
+
+.footer nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer nav a:hover {
+    color: #ccc;
+}
+
+/* footer section elements CSS */
+/* FOOTER */
+
+/* ========================= */
+/* RESPONSIVE DESIGN */
+/* ========================= */
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+    /* HEADER */
+
+    .header .container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .header nav a {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+
+    /* HERO */
+
+    .hero .container {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-image img {
+        width: 80%;
+        max-width: 600px;
+    }
+
+    .hero-text {
+        width: 90%;
+    }
+
+    .hero-text h1 {
+        font-size: 5rem;
+        padding-left: 0;
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
+        padding-left: 0;
+    }
+
+    .buy-btn {
+        margin-left: 0;
+    }
+
+
+    /* PRODUCTS */
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    /* RULES */
+
+    .rules .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .rules-text,
+    .rules-image {
+        width: 90%;
+    }
+
+
+    /* FOOTER */
+
+    .footer nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+
+/* Mobile phones */
+@media (max-width: 600px) {
+
+
+    section {
+        padding: 50px 0;
+    }
+
+
+    /* HEADER */
+
+    .header h3 {
+        font-size: 20px;
+    }
+
+    .header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* HERO */
+
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+
+    .buy-btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+
+
+    /* ABOUT */
+
+    .about h2,
+    .products h2,
+    .rules-text h2 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+
+    /* PRODUCTS */
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+
+    .card img {
+        height: 180px;
+    }
+
+
+    /* RULES */
+
+    .rules {
+        background-size: 150%;
+    }
+
+    .rules-text p {
+        font-size: 1rem;
+    }
+
+
+    /* FOOTER */
+
+    .footer nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+}
